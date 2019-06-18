@@ -36,7 +36,7 @@ hahaha.forEach(cv => {
   });
 });
 
-//----------- Mouseover: -----
+//----------- Mouseover: ---------------
 
 let content = document.querySelector(".text-content");
 content.addEventListener(
@@ -49,3 +49,20 @@ content.addEventListener(
   },
   false
 );
+
+//---------------DRAG START ---------------
+let drag = document.querySelector(".intro img");
+
+drag.addEventListener("dragstart", () => {
+  drag.setAttribute(
+    "src",
+    "https://previews.123rf.com/images/abolins/abolins1712/abolins171200017/99819236-princess-crown-icon.jpg"
+  );
+});
+
+//----------------DRAG IMAGE ---------------
+let dragImage = document.querySelector(".img-content img");
+
+dragImage.addEventListener("drag", () => {
+  dragImage.setAttribute("src", "img/6385.jpeg");
+});
