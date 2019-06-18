@@ -16,3 +16,8 @@ h2Tag.forEach(h2 => {
 });
 console.log(h2Tag);
 //
+//--------------- NAV BAR: ---------------
+let hide = document.querySelector(".btn");
+hide.addEventListener("mouseenter", function() {
+  this.style.visibility = "hidden";
+});
