@@ -17,7 +17,7 @@ h2Tag.forEach(h2 => {
   });
 });
 console.log(h2Tag);
-//
+
 //--------------- Button: ---------------
 let hide = document.querySelectorAll(".btn");
 hide.forEach(cv => {
@@ -79,4 +79,12 @@ let image3 = document.querySelector(".content-destination img");
 
 image3.addEventListener("drag", () => {
   image3.setAttribute("src", "img/Bentley.jpeg");
+});
+
+//--------------- NAV BAR: ---------------
+let disappear = document.querySelectorAll(".main-navigation nav");
+disappear.forEach(cv => {
+  cv.addEventListener("mouseenter", function() {
+    this.style.visibility = "hidden";
+  });
 });
