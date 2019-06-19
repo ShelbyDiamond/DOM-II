@@ -66,3 +66,17 @@ let dragImage = document.querySelector(".img-content img");
 dragImage.addEventListener("drag", () => {
   dragImage.setAttribute("src", "img/6385.jpeg");
 });
+
+//----------------DRAG IMAGE ---------------
+let image2 = document.querySelector(".img-content .rounded");
+
+image2.addEventListener("drag", () => {
+  image2.setAttribute("src", "img/butterflies.jpeg");
+});
+
+//----------------DRAG IMAGE ---------------
+let image3 = document.querySelector(".content-destination img");
+
+image3.addEventListener("drag", () => {
+  image3.setAttribute("src", "img/Bentley.jpeg");
+});
