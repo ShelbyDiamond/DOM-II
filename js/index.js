@@ -30,8 +30,8 @@ let hahaha = document.querySelectorAll("p");
 hahaha.forEach(cv => {
   cv.addEventListener("copy", function() {
     hahaha.forEach(cv => {
-      cv.textContent = "HAHAHA SUCKER!";
-      cv.style.color = "blue";
+      cv.textContent = "Don't Plagerize";
+      cv.style.color = "purple";
     });
   });
 });
